@@ -90,9 +90,9 @@ void swap(int pos1, int pos2)
 		stack[pos1]=stack[pos2];
 		stack[pos2]=temp;
 		// without using 3rd variable
-		stack[pos1] = stack[pos1] + stack[pos2];
-		stack[pos2] = stack[pos1] - stack[pos2];
-		stack[pos1] = stack[pos1] - stack[pos2];	
+		//stack[pos1] = stack[pos1] + stack[pos2];
+		//stack[pos2] = stack[pos1] - stack[pos2];
+		//stack[pos1] = stack[pos1] - stack[pos2];	
 	}
 	else
 		printf("Invalid index positions to swap");
